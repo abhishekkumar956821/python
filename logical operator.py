@@ -25,7 +25,10 @@ print("And oprator :",val1 and val2)
 
 
 
-#OR operator 
+#OR operator  aagar dono msa ek bi value rue ho 
+# jye or operator hame true hi deta h 
 val1 = False
 val2 = False
 print("OR operator :",val1 or val2)
+print("OR operator :", (a == b) or (a > b))
+ 
