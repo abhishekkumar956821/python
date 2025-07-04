@@ -13,5 +13,19 @@ print(str.startswith("i am ")) # yha pr starting ki value ko start me i am h ya 
 
 print(str.isalnum()) # yha pr check krega ki starting me koi alphanumeric value h ya nhi mtlb ki string me koi number or letter dono h ya nhi or print krega true or false
 
+
 print(str.isalpha()) # yha pr check krega ki string me koi alphabetic value h ya nhi mtlb ki string me sirf letter h or koi number nhi h or print krega true or false
 
+print(str.isdigit()) #yha pr check krega ki string me koi digit value h ya nhi mtlb ki string me sirf number h or koi letter nhi h or print krega true or false
+
+print(str.islower()) #yha pr check krega ki string me koi lower case value to h ya nhi mtlb ki string me sirf small letter h or koi capital letter nhi h or print krega true ya false 
+
+print(str.isupper()) #yha pr check krega ki string me koi upper case valueto h ya nhi mtlb ki string me sirf captial letter h or koi small letter nhi h or print krega true or false
+
+print(str.title()) #yha pr string ki value ko title case me convert krenga mtlb ki first letter ko captial kr dega or baki sab small letter me hoga
+
+print(str.swapcase()) #yha pr string ki value ko swap case me convert krenga mtlb ki small letter ko captial or captial letter ko small letter me convert kr dega
+
+print(str.replace("i am"," you are")) # yha pr string me i am ki jagah you are replace kr dega or print krega
+
+print(str.split()) # yha pr string ko split kr dega mtlb ki space ke hisab se string ko alag alag list me convert kr dega or print krega 
