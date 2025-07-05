@@ -29,3 +29,10 @@ print(str.swapcase()) #yha pr string ki value ko swap case me convert krenga mtl
 print(str.replace("i am"," you are")) # yha pr string me i am ki jagah you are replace kr dega or print krega
 
 print(str.split()) # yha pr string ko split kr dega mtlb ki space ke hisab se string ko alag alag list me convert kr dega or print krega 
+
+print(str.find("student")) #yha pr string me student ki value ko find krega or uski index value ko print krega 
+
+print(str.index("b.tech")) #yha pr string me b.tech ki value ko index krega or uski index value ko print krega 
+
+print(str.join(["hello","world"])) #yha pr string me hello or world ko join kr dega mtlb ki dono ko space ke hisab se join kr dega or print krega 
+
