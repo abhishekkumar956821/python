@@ -35,5 +35,20 @@ print(str.find("student")) #yha pr string me student ki value ko find krega or u
 print(str.index("b.tech")) #yha pr string me b.tech ki value ko index krega or uski index value ko print krega 
 
 print(str.join(["hello","world"])) #yha pr string me hello or world ko join kr dega mtlb ki dono ko space ke hisab se join kr dega or print krega 
+
+
 str2 ="  hello world  " 
 print(str2.strip()) #yha pr stgring ke starting or ending me jo space h usko remove kr dega or print krega 
+
+
+str3 = "   Abhishek kumar"
+print(str3.lstrip()) #yha pr string ke starting me jo space h usko remove kr dega or print krega 
+
+str4 = "bhishek kumar  "
+print(str4.rstrip()) #yha pr string ke ending m ko space h usko remove kr dega or print krega
+
+print(str.split()) # yha pr string ko split kr dega mtlb ki space ke hisab se string ko alag alag list me convert kr dega or print krega 
+
+print(str.splitlines()) #yha pr string ko line ke hisab se split kr dega mtlb ki string m jo bhi line break h uske hisab se string ko alag alag line me convert kr dega or print krega 
+
+print(str.partition("b.tech")) #yha pr string me b.tech ki value ko partition kr dega mtlb ki b.tech se pehle or baad ki value ko alag alag kr dega or print krega 
