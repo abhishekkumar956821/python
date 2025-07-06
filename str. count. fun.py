@@ -35,4 +35,5 @@ print(str.find("student")) #yha pr string me student ki value ko find krega or u
 print(str.index("b.tech")) #yha pr string me b.tech ki value ko index krega or uski index value ko print krega 
 
 print(str.join(["hello","world"])) #yha pr string me hello or world ko join kr dega mtlb ki dono ko space ke hisab se join kr dega or print krega 
-
+str2 ="  hello world  " 
+print(str2.strip()) #yha pr stgring ke starting or ending me jo space h usko remove kr dega or print krega 
