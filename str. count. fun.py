@@ -52,3 +52,15 @@ print(str.split()) # yha pr string ko split kr dega mtlb ki space ke hisab se st
 print(str.splitlines()) #yha pr string ko line ke hisab se split kr dega mtlb ki string m jo bhi line break h uske hisab se string ko alag alag line me convert kr dega or print krega 
 
 print(str.partition("b.tech")) #yha pr string me b.tech ki value ko partition kr dega mtlb ki b.tech se pehle or baad ki value ko alag alag kr dega or print krega 
+
+print(str.rpartition("i am ")) #yha pr string me iu am ki value ko rpartition kr dega mtlb ki i am se pehle or baad ki value ko alag alag kr dega or print krega 
+
+print(str.removeprefix("i am ")) #yha pr string me i am ki value ko remove kr dega mtlb ki i am se pehle ki value ko alag kr dega or print krega 
+
+print(str.removesuffix("developer")) #yha pr string me developer ki value ko remove kr dega mtlb ki developer se baad ki value kon alag kr dega or print krega 
+
+print(str.zfill(100)) #yha pr string ko 100 character tak zero se fill kr dega mtlb ki string ki length 100 ho jayegi or baki ki jagah zero se fill ho jayega or print krega
+
+print(str.center(100)) #yha pr string ko 100 character tak center me rakh dega mtlb ki string ki length 100 ho jayegi or baki ki jagah space se fill ho jayega or print krega 
+
+print(str.ljust(100)) #yha pr string ko 100 character tak left me rakh dega mtlb ki string ki length 100 ho jayegi or baki ki jagah space se fill ho jayega or print krega
