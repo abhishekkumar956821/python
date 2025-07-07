@@ -64,3 +64,7 @@ print(str.zfill(100)) #yha pr string ko 100 character tak zero se fill kr dega m
 print(str.center(100)) #yha pr string ko 100 character tak center me rakh dega mtlb ki string ki length 100 ho jayegi or baki ki jagah space se fill ho jayega or print krega 
 
 print(str.ljust(100)) #yha pr string ko 100 character tak left me rakh dega mtlb ki string ki length 100 ho jayegi or baki ki jagah space se fill ho jayega or print krega
+
+print(str.rjust(100)) #yha pr string ko 100 character tak right me rakh dega mtlb ki string ki length 100 ho jayegi or baki ki jagah space se fill ho jayega or print krega
+
+print(str.casefold()) #yha pr string ko case fold kr dega mtlb ki string ki value ko small letter me convert kr dega or print krega
