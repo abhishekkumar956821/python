@@ -4,7 +4,7 @@ print(name[0:26])
 # output = Abhishek kumar , Ani
 
 
-#/newcode
+#newcode
 fruit = "mango"
 len1 = len(fruit)
 print("mango is a", len1,"letter word.")
