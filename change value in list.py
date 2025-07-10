@@ -1,3 +1,7 @@
+#list m string ko change kr sakta h 
+#jase mena "karan" ko "lavish " m chnage kra h 
+
+
 student = ["karan",99, "delhi"]
 print(student[0])
 student[0] = "lavish"
