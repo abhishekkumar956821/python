@@ -5,6 +5,19 @@ print("Reversed List:", list)
 
 
 
+
+
+#string ke ander bi sorting method use hota h 
+
+list1 = ["date", "apple", "cherry", "apricot"]
+
+print("Orignal Set:", list1)
+
+list1.sort()
+
+print("Set after Sorting in Descending Order:", list1)
+
+
 #list = [2,1,3,4,5,6,7,8,9,10]
 #list.append(11) #adding 11 at the end of list
 #list.insert(0, 0) #adding 0 at the start of list
